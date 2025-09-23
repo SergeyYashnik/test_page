@@ -155,12 +155,7 @@ svg * {
   border-color: currentColor;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  *,
-  ::before,
-  ::after {
-  }
-}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -245,6 +240,7 @@ body {
   cursor: pointer;
 }
 .nav__item .item-link {
+  display: flex;
   font-size: calc(27px * 100vw / 1920px);
   font-weight: 300;
   color: #62560E;
@@ -254,13 +250,9 @@ body {
 }
 .nav-actions__link {
   display: flex;
+  gap: calc(15.625px * 100vw / 1920px);
   align-items: end;
 }
-
-.nav-actions__link {
-  gap: calc(15.625px * 100vw / 1920px);
-}
-
 .nav__item:last-child .item-link {
   align-items: center;
   gap: calc(7.5px * 100vw / 1920px);
