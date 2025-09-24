@@ -257,7 +257,6 @@ body {
     font-weight: 300;
     gap: calc(100vw * 11 / 1920);
     color: #62560E;
-    align-items: center;
 }
 
 .nav__item .item-link:hover {
@@ -271,12 +270,10 @@ body {
 }
 
 .nav__item:last-child .item-link {
-    align-items: center;
-    gap: calc(100vw * 7.5 / 1920);
+    gap: calc(100vw * 11 / 1920);
 }
 
 .nav__item:last-child .item-link .header__item-icon {
-    order: 1;
     display: inline-flex;
 }
 
