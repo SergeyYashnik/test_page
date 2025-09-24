@@ -133,10 +133,6 @@ class RegionConfirmation {
         this.confirmButton = this.root.querySelector('[data-region-confirm-btn]');
         this.questionElements = this.root.querySelectorAll('[data-region-question]');
 
-        if (list) {
-            this.changeRegionButton = list.querySelector('[data-change-region-btn]');
-        }
-
         this.bindEvents();
     }
 
