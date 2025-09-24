@@ -253,7 +253,7 @@ body {
 
 .nav__list {
     display: flex;
-    gap: calc(100vw * 243.75 / 1920);
+    gap: calc(100vw * 160 / 1920);
     align-items: center;
 }
 
